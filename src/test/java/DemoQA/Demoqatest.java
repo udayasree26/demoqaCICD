@@ -42,6 +42,8 @@ public class Demoqatest {
 		qa.submitbtn();
 		Thread.sleep(10);
 		
+		//CICD web hooks
+		
 	}
 	
 
