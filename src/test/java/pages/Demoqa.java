@@ -30,6 +30,9 @@ public class Demoqa {
 	@FindBy(id="submit")
 	WebElement submit;
 	
+	@FindBy(xpath="//span[@role='checkbox']")
+	WebElement checkbox;
+	
 	public void username(String user) {
 		username.sendKeys(user);
 	}
@@ -48,6 +51,10 @@ public class Demoqa {
 	
 	public void submitbtn() {
 		submit.click();
+	}
+	
+	public void checkboxsel() {
+		checkbox.click();
 	}
 
 }
