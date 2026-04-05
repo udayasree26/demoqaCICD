@@ -40,6 +40,7 @@ public class Demoqatest {
 		qa.permanentaddress("Hyderabad");
 		Thread.sleep(3);
 		qa.submitbtn();
+		System.out.println("checkbox test case is passed");
 		Thread.sleep(10);
 		
 		//CICD web hooks

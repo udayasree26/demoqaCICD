@@ -35,6 +35,7 @@ public class DemoqaCheckbox {
 	 void selectcheckbox() throws InterruptedException {
 		qa=new Demoqa(driver);
 		qa.checkboxsel();
+		System.out.println("checkbox test case is passed");
 		Thread.sleep(10);
 
 }
